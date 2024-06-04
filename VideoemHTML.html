@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedado localmente</h1>
+    <p>Este video é hospedado no seu proprio servidor</p>
+
+    <!--Primeiro formato Simples - Codigo para puxar o video, Width é o tamanho do video que quer que fique no navegador , Codigo abaixo:-->
+    <!--<video src="caminho do video" width="500" controls></video>-->
+
+    <hr> 
+
+    <!--Segundo formato de codigo mais complexo: Porém, incluindo o POSTER para uma imagem ficar no inicio do video.
+    e o width para o tamanho do video no navegador e todos os formatos de videos para diversos navegadores que tentarem acessar (GoogleChrome, Safari, Firefox e etc) Codigo abaixo:-->
+
+    <video width="500" poster="Caminho da foto" controls>
+        <source src="caminho.mp4" type="video/mp4">
+        <source src="caminho.mp4" type="video/mp4">
+        <source src="caminho.mp4" type="video/mp4">
+        <source src="caminho.mp4" type="video/mp4">
+        <p>Seu navegador nao tem compatibilidade com reprodução de videos.</p>
+    </video>
+
+</body>
+</html>
