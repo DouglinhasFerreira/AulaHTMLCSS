@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A7); /*tag no CSS para incluir Degradê na pagina, de (esquerdo para direito), (se quiser de direito para esquerdo - To right), (De cima para baixo - to TOP), (De baixo para cima - To Bottom), posso colocar mais do que duas cores e tambem consigo fazer graus como (45deg ou -45deg do lugar do to left) Graus. Consigo tambem colocar gradientes de imagem como (circle), consigo tambem colocar % para cada COR (ao lado direito da cor botar a quantidade de % que voce quer usar*/
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /* as bordas da parte branca do textos*/
+    box-shadow: 5px 5px 15px rgba(136,109,93,0.616); /* PARA BORDAS -> Partes: 1 - quanto essa sombra vai andar para o lado, 2 - quanto essa sombra vai andar para baixo, 3 - quanto essa sombra vai espalhar e o 4 - quanto de transparencia vai ter (4 sera cor ou rgba)  */
+    width: 600px; /* para nao fica a pagina toda*/
+    padding: 10px; /* para a as letras sair de perto da bordar */
+    margin: auto; /*Para o assunto fica no centro da pagina*/
+}
+
+h1 {
+    color: #f39209;
+    text-align: center; /*Alinhando o titulo no centro*/
+    text-shadow: 1px 1px 2px black; /*para o TEXTO */
+}
+
+h2 {
+    color: #125189;
+}
+
+p {
+    text-align: justify;
+}
+
